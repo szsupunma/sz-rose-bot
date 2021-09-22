@@ -35,8 +35,13 @@
  - It is forbidden to clone this without my permission and fork is allowed.
  - This is the clone of DewmiBot it is a  Powerful, Smart And Simple Group Manager bot made by hirunaofficial.
 ```
-## Credits 🥰 
 
+
+# Contributors
+![GitHub Contributors Image](https://contrib.rocks/image?repo=youtubeslgeekshow/sz-rose-bot)    
+    
+    
+## Credits 🥰 
     
 - [hirunaofficial](https://github.com/hirunaofficial)~ (DEV)
 - [Damantha126](https://github.com/Damantha126)~ (DEV)
