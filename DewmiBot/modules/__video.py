@@ -62,11 +62,10 @@ async def vsong(pbot, message):
         file_name,
         duration=int(ytdl_data["duration"]),
         thumb=preview,
-        caption=ytdl_data['title'],
-        reply_markup= VID_BUTTONS,)
+        caption=ytdl_data["'title'\n\n our channel👱‍♂️"],
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join updates", url=f"https://t.me/szroseupdates")]]))
     try:
         os.remove(file_name)
         await msg.delete()
     except Exception as e:
         print(e)
-    VID_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton("Join updates", url=f"https://t.me/szroseupdates")]])
