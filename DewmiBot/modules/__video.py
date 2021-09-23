@@ -69,3 +69,5 @@ async def vsong(pbot, message):
         await msg.delete()
     except Exception as e:
         print(e)
+
+        
