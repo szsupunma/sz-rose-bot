@@ -77,3 +77,7 @@ motor
 
 pygithub
 search_engine_parser
+
+aiofiles
+yt_dlp
+youtube_search
