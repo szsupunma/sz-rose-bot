@@ -6,7 +6,6 @@ from DewmiBot.function.dbfun import (
     get_karmas,
     int_to_alpha,
     alpha_to_int,
-    get_user_id_and_usernames,
 )
 from DewmiBot.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
