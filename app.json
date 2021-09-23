@@ -8,6 +8,14 @@
          "sz-rose-bot"
       ],   
    "repository": "https://github.com/youtubeslgeekshow/sz-rose-bot",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
    "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
