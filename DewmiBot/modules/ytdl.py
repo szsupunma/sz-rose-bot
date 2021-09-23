@@ -17,7 +17,7 @@ from youtube_dl.utils import (
 from DewmiBot.events import register as saitama
 
 
-@saitama(pattern="^/yt(audio|video) (.*)")
+@saitama(pattern="^/yts(udio|ideo) (.*)")
 async def download_video(v_url):
     """ For .ytdl command, download media from YouTube and many other sites. """
     url = v_url.pattern_match.group(2)
