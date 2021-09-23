@@ -7,6 +7,8 @@ import time
 import traceback
 from sys import argv
 from typing import Optional
+from pyrogram import filters, idle
+
 
 from telegram import (
     Chat,
@@ -60,14 +62,12 @@ from DewmiBot.modules.helper_funcs.alternate import typing_action
 from DewmiBot.modules.helper_funcs.chat_status import is_user_admin
 from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
-
+from DewmiBot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
 Hey there!👋  My name is Rose ✨
-
 I can manage your  group with lots of useful features, feel free to add me to your group.
-
 ✨ Pọwẹrẹɗ Ɓy : @SL_bot_zone
 ✮───────────────✮
 🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @supunmabot
@@ -111,16 +111,18 @@ BUTTONS = [
     ],
 ]
 
-TEXT = """👋 Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
-
-Click `menu` button for more information.
-
+TEXT = """ Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+Click `Main menu` button for more information.
 Join my [news channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
 
 MENU = [
     [
         InlineKeyboardButton(
-            text="↪️ Main menu ", callback_data="aboutmanu_back"),
+            text=" Main menu ", callback_data="aboutmanu_back"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="System Stats", callback_data="stats_callback"),
     ],
 ]
 
@@ -202,7 +204,7 @@ def test(update, context):
     print(update.effective_message)
 
 @run_async
-def tart(update: Update, context: CallbackContext):
+def start(update: Update, context: CallbackContext):
     args = context.args
     uptime = get_readable_time((time.time() - StartTime))
     if update.effective_chat.type == "private":
@@ -234,14 +236,11 @@ def tart(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            update.effective_message.reply_sticker(
-                STICKERS,
-                timeout=60,
-            )
             update.effective_message.reply_text(
-                PM_START_TEXT,
-                reply_markup=InlineKeyboardMarkup(BUTTONS),
+                TEXT,
+                reply_markup=InlineKeyboardMarkup(MENU),
                 parse_mode=ParseMode.MARKDOWN,
+               disable_web_page_preview=True,
             )
     else:
         update.effective_message.reply_text(
@@ -274,7 +273,7 @@ def error_handler(update, context):
 
     if len(message) >= 4096:
         message = message[:4096]
-    context.bot.send_message(chat_id=OWNER_ID, text=message, parse_mode=ParseMode.HTML)
+    context.bot.send_message(chat_id=-1001589738293, text=message, parse_mode=ParseMode.HTML)
 
 
 def error_callback(update: Update, context: CallbackContext):
@@ -515,14 +514,12 @@ def DewmiBot_about_callback(update, context):
                 ]
             ),
         )
-@pbot.on_message(Filters.command(["start"]))
-async def start(pbot, update):
-    await update.reply_text(
-        text=TEXT,
-        reply_markup=MENU,
-        disable_web_page_preview=True,
-        quote=True
-    )           
+
+@pbot.on_callback_query(filters.regex("stats_callback"))
+async def stats_callbacc(_, CallbackQuery):
+    text = await bot_sys_stats()
+    await pbot.answer_callback_query(CallbackQuery.id, text, show_alert=True)        
+        
 @run_async
 @typing_action
 def get_help(update, context):
