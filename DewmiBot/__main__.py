@@ -67,11 +67,8 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 
 PM_START_TEXT = """
 Hey there!👋  My name is Rose ✨
-I can manage your  group with lots of useful features, feel free to add me to your group.
-✨ Pọwẹrẹɗ Ɓy : @SL_bot_zone
-✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @supunmabot
-✮───────────────✮
+I can manage your  group with lots of useful features with advance AI system.
+feel free to add me to your group.
 """
 
 HELP_STRINGS = f"""
@@ -89,43 +86,62 @@ DONATE_STRING = """
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
-BUTTONS = [
+BUTTONS = InlineKeyboardMarkup(
     [
-        InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/sl_bot_zone"),
-        InlineKeyboardButton(
-            text="Repo 📦", url=f"https://github.com/youtubeslgeekshow"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="Info & about 💁‍♀️", callback_data="aboutmanu_howto"),
-        InlineKeyboardButton(
-            text=" More 💫", callback_data="aboutmanu_"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="🧰 Help & commands 🛠 ", callback_data="help_back"),
-    ],
-]
+        [
+            InlineKeyboardButton(
+                text="Help & commands 🛠 ", callback_data="help_back"
+            ),
+            InlineKeyboardButton(
+                text="Repo 📦",
+                url="https://github.com/youtubeslgeekshow/sz-rose-bot",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="Info & about👨",
+                 callback_data="aboutmanu_howto",
+            ),
+            InlineKeyboardButton(
+                text="Collection😊", callback_data="aboutmanu_"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="Add Me To Your Group ",
+                url=f"http://t.me/szrosebot?startgroup=true",
+            )
+        ],
+    ]
+)
+
 
 TEXT = """ Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+
 Click `Main menu` button for more information.
-Join my [news channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
 
-MENU = [
-    [
-        InlineKeyboardButton(
-            text=" Main menu ", callback_data="aboutmanu_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="System Stats", callback_data="stats_callback"),
-    ],
-]
+Join my [Updates channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
 
+MENU = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(
+                text=" Main menu ", callback_data="aboutmanu_back"
+            ),
+            InlineKeyboardButton(
+                text="System Stats🖥",
+                callback_data="stats_callback",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=" Search Inline 🔎",
+                switch_inline_query_current_chat="",
+            )
+        ],
+    ]
+)
+   
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
