@@ -86,7 +86,7 @@ DONATE_STRING = """
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
-BUTTONS = InlineKeyboardMarkup(
+BUTTONS = (
     [
         [
             InlineKeyboardButton(
@@ -122,7 +122,7 @@ Click `Main menu` button for more information.
 
 Join my [Updates channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
 
-MENU = InlineKeyboardMarkup(
+MENU = (
     [
         [
             InlineKeyboardButton(
