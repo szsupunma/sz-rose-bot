@@ -1,3 +1,6 @@
+# Copyright (C) 2021 By VeezMusicProject
+# thank you i get your codes for my szrosebot 
+
 from __future__ import unicode_literals
 
 import asyncio
@@ -59,9 +62,11 @@ async def vsong(pbot, message):
         file_name,
         duration=int(ytdl_data["duration"]),
         thumb=preview,
-        caption=ytdl_data['title'])
+        caption=ytdl_data['title'],
+        reply_markup= VID_BUTTONS,)
     try:
         os.remove(file_name)
         await msg.delete()
     except Exception as e:
         print(e)
+    VID_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton("Join updates", url=f"https://t.me/szroseupdates")]])
