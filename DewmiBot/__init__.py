@@ -100,6 +100,7 @@ if ENV:
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
     BOT_ID = os.environ.get("BOT_ID", None)  
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", "@SpamWatchSupport")
+    bot_start_time = time.time()
     
     try:
         WHITELIST_CHATS = set(
