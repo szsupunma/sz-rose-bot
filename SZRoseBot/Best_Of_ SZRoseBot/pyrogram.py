@@ -1,4 +1,4 @@
-# This file is part of TheNatsukiBot (Telegram Bot)
+# This file is part of SZRoseBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,7 +18,7 @@ import logging
 from pyrogram import Client
 
 # from pyromod import listen
-from DewmiBot.config import get_int_key, get_str_key
+from SZRoseBot.config import get_int_key, get_str_key
 
 TOKEN = get_str_key("TOKEN", required=True)
 APP_ID = get_int_key("API_ID", required=True)
