@@ -19,7 +19,7 @@ import sys
 import yaml
 from envparse import env
 
-from DewmiBot.utils.logger import log
+from SZRoseBot.utils.logger import log
 
 DEFAULTS = {
     "LOAD_MODULES": True,
