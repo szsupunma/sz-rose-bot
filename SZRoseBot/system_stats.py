@@ -10,8 +10,8 @@ import time
 import psutil
 from pyrogram import filters
 
-from DewmiBot import bot_start_time
-from DewmiBot.utils import formatter
+from SZRoseBot import bot_start_time
+from SZRoseBot.utils import formatter
 
 # Stats Module
 
