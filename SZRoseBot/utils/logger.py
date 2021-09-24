@@ -1,4 +1,4 @@
-# This file is part of Natsuki (Telegram Bot)
+# This file is part of SZRoseBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -40,11 +40,11 @@ class InterceptHandler(logging.Handler):
 logging.basicConfig(handlers=[InterceptHandler()], level=logging.INFO)
 log = logging.getLogger(__name__)
 logger.add(
-    "logs/DewmiBot.log",
+    "logs/SZRoseBot.log",
     rotation="1 d",
     compression="tar.xz",
     backtrace=True,
     diagnose=True,
     level="INFO",
 )
-log.info("Enabled logging intro Natsuki.log file.")
+log.info("Enabled logging intro SZRoseBot.log file.")
