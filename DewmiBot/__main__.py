@@ -37,7 +37,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from DewmiBot import (
+from SZRoseBot import (
     ALLOW_EXCL,
     BL_CHATS,
     CERT_PATH,
@@ -57,12 +57,12 @@ from DewmiBot import (
     updater,
 )
 
-from DewmiBot.modules import ALL_MODULES
-from DewmiBot.modules.helper_funcs.alternate import typing_action
-from DewmiBot.modules.helper_funcs.chat_status import is_user_admin
-from DewmiBot.modules.helper_funcs.misc import paginate_modules
-from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
-from DewmiBot.modules.system_stats import bot_sys_stats
+from SZRoseBot.modules import ALL_MODULES
+from SZRoseBot.modules.helper_funcs.alternate import typing_action
+from SZRoseBot.modules.helper_funcs.chat_status import is_user_admin
+from SZRoseBot.modules.helper_funcs.misc import paginate_modules
+from SZRoseBot.modules.helper_funcs.readable_time import get_readable_time
+from SZRoseBot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
@@ -145,7 +145,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("DewmiBot.modules." + module_name)
+    imported_module = importlib.import_module("SZRoseBot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
