@@ -25,8 +25,6 @@ from pyrogram import filters
 from DewmiBot import pbot
 from DewmiBot.function.dbfun import get_couple, save_couple
 
-
-
 # Date and time
 def dt():
     now = datetime.now()
