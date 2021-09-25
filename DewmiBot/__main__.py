@@ -68,6 +68,7 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 PM_START_TEXT = """
 Hey there!👋  My name is Rose ✨
 I can manage your  group with lots of useful features with advance AI system.
+
 feel free to add me to your group.
 """
 
@@ -108,7 +109,7 @@ BUTTONS = (
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group ",
+                text="Add Me To Your Group🎉",
                 url=f"http://t.me/szrosebot?startgroup=true",
             )
         ],
