@@ -37,7 +37,9 @@
 ```
 
 
-
+# Contributors
+    
+![GitHub Contributors Image](https://contrib.rocks/image?repo=youtubeslgeekshow/sz-rose-bot)   
     
 ## Credits 🥰 
     
