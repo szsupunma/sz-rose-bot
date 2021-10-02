@@ -32,7 +32,7 @@ async def set_timer(client, message):
             if 0<user_input_time<=10:
                 while user_input_time and not stoptimer:
                     s=user_input_time%60
-                    rose_text='{}\n\n⏳ {:02d}**s**\n\n<i>"Your" **Time** Is Limited'.format(user_input_event, s)
+                    rose_text='{}\n\n⏳ {:02d}**s**\n\n**s**\n\n<b>By @szrosebot</b>'.format(user_input_event, s)
                     finish_countdown = await get_user_input_time.edit(rose_text)
                     await asyncio.sleep(1)
                     user_input_time -=1
@@ -40,7 +40,7 @@ async def set_timer(client, message):
             elif 10<user_input_time<60:
                 while user_input_time>0 and not stoptimer:
                     s=user_input_time%60
-                    rose_text='{}\n\n⏳ {:02d}**s**\n\n<i>"Your" **Time** Is Limited'.format(user_input_event, s)
+                    rose_text='{}\n\n⏳ {:02d}**s**\n\n**s**\n\n<b>By @szrosebot</b>'.format(user_input_event, s)
                     finish_countdown = await get_user_input_time.edit(rose_text)
                     await asyncio.sleep(3)
                     user_input_time -=3
@@ -49,7 +49,7 @@ async def set_timer(client, message):
                 while user_input_time>0 and not stoptimer:
                     m=user_input_time%3600//60
                     s=user_input_time%60
-                    rose_text='{}\n\n⏳ {:02d}**m** : {:02d}**s**\n\n<i>"Your **Time** Is Limited, So Don\'t Waste It Living Someone Else\'s Life"</i>\n      - Steve Jobs'.format(user_input_event, m, s)
+                    rose_text='{}\n\n⏳ {:02d}**m** : {:02d}**s**\n\n<b>By @szrosebot</b>'.format(user_input_event, m, s)
                     finish_countdown = await get_user_input_time.edit(rose_text)
                     await asyncio.sleep(3)
                     user_input_time -=3
@@ -59,7 +59,7 @@ async def set_timer(client, message):
                     h=user_input_time%(3600*24)//3600
                     m=user_input_time%3600//60
                     s=user_input_time%60
-                    rose_text='{}\n\n⏳ {:02d}**h** : {:02d}**m** : {:02d}**s**\n\n<i>"Your" **Time** Is Limited'.format(user_input_event, h, m, s)
+                    rose_text='{}\n\n⏳ {:02d}**h** : {:02d}**m** : {:02d}**s**\n\n<b>By @szrosebot</b>'.format(user_input_event, h, m, s)
                     finish_countdown = await get_user_input_time.edit(rose_text)
                     await asyncio.sleep(7)
                     user_input_time -=7
@@ -70,7 +70,7 @@ async def set_timer(client, message):
                     h=user_input_time%(3600*24)//3600
                     m=user_input_time%3600//60
                     s=user_input_time%60
-                    rose_text='{}\n\n⏳ {:02d}**d** : {:02d}**h** : {:02d}**m** : {:02d}**s**\n\n<i>"Your" **Time** Is Limited'.format(user_input_event, d, h, m, s)
+                    rose_text='{}\n\n⏳ {:02d}**d** : {:02d}**h** : {:02d}**m** : {:02d}**s**\n\n<b>By @szrosebot</b>'.format(user_input_event, d, h, m, s)
                     finish_countdown = await get_user_input_time.edit(rose_text)
                     await asyncio.sleep(9)
                     user_input_time -=9
