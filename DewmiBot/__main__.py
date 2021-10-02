@@ -73,7 +73,16 @@ feel free to add me to your group.
 """
 
 HELP_STRINGS = f"""
-𝑻𝒉𝒆 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒇𝒖𝒏𝒄𝒕𝒊𝒐𝒏𝒔 𝒘𝒊𝒍𝒍 𝒉𝒆𝒍𝒑𝒇𝒖𝒍 𝒕𝒐 𝒚𝒐𝒖 𝒕𝒐 𝒎𝒂𝒏𝒂𝒈𝒆 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑🙂
+Main Commands 
+Hey there! My name is  Rose bot ✨
+I'm Powerful BOT to Make Your Groups Secured and Organized & I help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
+
+Main commands available:
+
+ • /donate: information on how to donate!
+ • /settings:
+   • in PM: will send you your settings for all supported modules.
+   • in a group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -236,7 +245,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🔙 Back", callback_data="help_back")]]
                     ),
                 )
 
