@@ -136,8 +136,8 @@ MENU = (
         ],
         [
             InlineKeyboardButton(
-                text=" Search Inline 🔎",
-                switch_inline_query_current_chat="",
+                text="Add Me To Your Group🎉",
+                url="http://t.me/szrosebot?startgroup=true",
             )
         ],
     ]
