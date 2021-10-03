@@ -5,7 +5,7 @@ from telethon.tl.types import ChatBannedRights
 from apscheduler.schedulers.asyncio import AsyncIOScheduler 
 from telethon import functions
 from DewmiBot.events import register
-from DewmiBot import OWNER_ID
+from DewmiBot import telethn
 from DewmiBot import telethn as tbot
 from telethon import *
 from telethon import Button, custom, events
