@@ -69,11 +69,11 @@ PM_START_TEXT = """
 Hey there! 
 
            My name is Rose bot ✨
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 A powerful group management bot which can help you 
 to manage your groups effectively as possible With   
 Advanced AI . 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 🎉️feel free to add me to your group.
 """
