@@ -66,23 +66,27 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Rose ✨
-I can manage your  group with lots of useful features with advance AI system.
+Hey there! 
 
-feel free to add me to your group.
+           My name is Rose bot ✨
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+A powerful group management bot which can help you 
+to manage your groups effectively as possible With   
+Advanced AI . 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+🎉️feel free to add me to your group.
 """
 
 HELP_STRINGS = f"""
-Main Commands 
-Hey there! My name is  Rose bot ✨
-I'm Powerful BOT to Make Your Groups Secured and Organized & I help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
-
-Main commands available:
-
- • /donate: information on how to donate!
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+╔═════「 ✥✥✥✥✥✥✥ 」═════╗
+You can choose an option bellow,
+by clicking 
+          a button ...
+Also you can ask anything  in 
+         support group
+               ❤️        
+╚═════「 ✥✥✥✥✥✥✥ 」═════╝              
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -90,9 +94,16 @@ Main commands available:
 
 
 DONATE_STRING = """
-𝑯𝒆𝒚𝒂, 𝒈𝒍𝒂𝒅 𝒕𝒐 𝒉𝒆𝒂𝒓 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒅𝒐𝒏𝒂𝒕𝒆!
-𝒀𝒐𝒖 𝒄𝒂𝒏 𝒅𝒐𝒏𝒂𝒕𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒐𝒓𝒊𝒈𝒊𝒏𝒂𝒍 𝒘𝒓𝒊𝒕𝒆𝒓'𝒔 𝒐𝒇 𝒕𝒉𝒆 𝑩𝒂𝒔𝒆 𝒄𝒐𝒅𝒆,
-𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+➢Heya,glad to hear you want to donate !
+
+➢ You can support the project @supunmabot
+
+
+➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+
+
+➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
+
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
@@ -126,11 +137,19 @@ BUTTONS = (
 )
 
 
-TEXT = """ Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+TEXT = """
+ Hey there! 
+
+           My name is Rose bot ✨
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+A powerful group management bot which can help you 
+to manage your groups effectively as possible With   
+Advanced AI . 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 Click `Main menu` button for more information.
 
-Join my [Updates channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
+Join my [Updates channel](https://t.me/szteambots) to get information on all the latest updates.  """
 
 MENU = (
     [
@@ -336,7 +355,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*｢｢  𝗛𝗲𝗹𝗽  𝗳𝗼𝗿  {}  𝗺𝗼𝗱𝘂𝗹𝗲 」」😊*\𝗻".format(
+                "╔═════「   szrosebot   」═════╗\n\nHere Is The Available  Help\n          For The {}   \n\n╚═════「  szrosebot   」═════╝\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -411,7 +430,7 @@ def DewmiBot_about_callback(update, context):
                             text="Bᴜɢ'ꜱ🐞", url="t.me/slbotzone"
                         ),
                         InlineKeyboardButton(
-                            text="updates💁‍♀️", url="t.me/sl_bot_zone"
+                            text="updates💁‍♀️", url="t.me/szteambots"
                         ),
                     ],
                     [
@@ -497,12 +516,8 @@ def DewmiBot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Owener channel ", url="https://t.me/FreeNetSL"),
-                    InlineKeyboardButton(text="Owner group ", url="https://t.me/supunmasl"),
-                 ],
-                 [
                     InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/slbotzone"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/sl_bot_zone"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/szteambots"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
