@@ -61,9 +61,9 @@ def broadcast(update: Update, context: CallbackContext):
     if len(to_send) >= 2:
         to_group = False
         to_user = False
-        if to_send[0] == "/broadcastgroups":
+        if to_send[0] == "/gcast":
             to_group = True
-        if to_send[0] == "/broadcastusers":
+        if to_send[0] == "/ucast":
             to_user = True
         else:
             to_group = to_user = True
