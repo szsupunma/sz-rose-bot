@@ -50,10 +50,10 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
              in module_dict.values()])
 
     pairs = [
-    modules[i * 3:(i + 1) * 3] for i in range((len(modules) + 3 - 1) // 3)
+    modules[i * 4:(i + 1) * 4] for i in range((len(modules) + 4 - 1) // 4)
     ]
 
-    round_num = len(modules) / 3
+    round_num = len(modules) / 4
     calc = len(modules) - round(round_num)
     if calc == 1:
         pairs.append((modules[-1], ))
