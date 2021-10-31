@@ -66,13 +66,13 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Rose ✨
+Hey there!👋  My name is Risky ✨
 
 I can manage your  group with lots of useful features, feel free to add me to your group.
 
-✨ Pọwẹrẹɗ Ɓy : @SL_bot_zone
+✨ Pọwẹrẹɗ Ɓy : @Psycopath_1
 ✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @supunmabot
+🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @Psycopath_1
 ✮───────────────✮
 """
 
@@ -97,9 +97,9 @@ BUTTONS = [
             text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/sl_bot_zone"),
+        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/Psycopath_1"),
         InlineKeyboardButton(
-            text="Repo 📦", url=f"https://github.com/youtubeslgeekshow"
+            text="Repo 📦", url=f"https://github.com/Last-manstanding/sz-rose-bot/edit/rose-v1.0/DewmiBot/__main__.py"
         ),
     ],
     [
@@ -113,11 +113,11 @@ BUTTONS = [
     ],
 ]
 
-TEXT = """ Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+TEXT = """ Hey there! My name is Risky bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
 
 Click `Main menu` button for more information.
 
-Join my [news channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
+Join my [news channel](https://t.me/Psycopath_1) to get information on all the latest updates.  """
 
 MENU = [
     [
