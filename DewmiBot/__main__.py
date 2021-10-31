@@ -259,12 +259,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            " I'm online!!😊\n<b>Up since:</b> <code>{}</code>😝".format(
+            "╔════「   ✥✥✥✥✥✥✥   」════╗\n                         Hᴇʟʟᴏ,\n                 ɪ ᴀᴍ ʀᴏꜱᴇ ʙᴏᴛ❤\n       Pᴏᴡᴇʀᴇᴅ Bʏ @szteambots\n                  ɪ ᴀᴍ ᴏɴʟɪɴᴇ!!😊\n                  ꜱɪɴᴄᴇ:  <code>{}</code>😝".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Updates", url ="https://t.me/szroseupdates")]],
+                [[InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url ="https://t.me/szroseupdates")]],
             ),
         )
     
