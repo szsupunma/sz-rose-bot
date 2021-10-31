@@ -261,7 +261,7 @@ def start(update: Update, context: CallbackContext):
         update.effective_message.reply_text(
             "╔════「   ✥✥✥✥✥✥✥   」════╗\n                         Hᴇʟʟᴏ,\n                 ɪ ᴀᴍ ʀᴏꜱᴇ ʙᴏᴛ❤\n       Pᴏᴡᴇʀᴇᴅ Bʏ @szteambots\n                  ɪ ᴀᴍ ᴏɴʟɪɴᴇ!!😊\n                  ꜱɪɴᴄᴇ:  <code>{}</code>😝".format(
                 uptime
-            ),
+            )\n╚════「   ✥✥✥✥✥✥✥   」════╝\n  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n,
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url ="https://t.me/szroseupdates")]],
