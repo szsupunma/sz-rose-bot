@@ -76,7 +76,7 @@ HELP_STRINGS = f"""╔═════「   ✥✥✥✥✥✥   」════�
 
 
 DONATE_STRING = """
-➢Heya,glad to hear you want to donate !
+➢Heya,glad to hear you want to donate !!!!!!
 
 ➢ You can support the project @supunmabot
 
@@ -84,7 +84,7 @@ DONATE_STRING = """
 ➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
 
 
-➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
+➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots......
 
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
