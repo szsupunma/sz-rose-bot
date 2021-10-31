@@ -65,28 +65,10 @@ from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 from DewmiBot.modules.system_stats import bot_sys_stats
 
 
-PM_START_TEXT = """
-Hey there! 
-
-           My name is Rose bot ✨
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-A powerful group management bot which can help you 
-to manage your groups effectively as possible With   
-Advanced AI . 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-🎉️feel free to add me to your group.
+PM_START_TEXT = """╔═════「   ✥✥✥✥✥✥   」═════╗\n                       ʜᴇʏ ᴛʜᴇʀᴇ!\n             ᴍʏ ɴᴀᴍᴇ ɪꜱ ʀᴏꜱᴇ ʙᴏᴛ ✨\n    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n                      ᴀ ᴘᴏᴡᴇʀꜰᴜʟ\n           ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ\n               ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ\n           ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ\n      ᴇꜰꜰᴇᴄᴛɪᴠᴇʟʏ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ ᴡɪᴛʜ\n                     ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɪ .\n     ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n                      🎉️ꜰᴇᴇʟ ꜰʀᴇᴇ\n         ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.\n╚═════「   ✥✥✥✥✥✥   」═════╝\n  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
-HELP_STRINGS = f"""
-╔═════「 ✥✥✥✥✥✥✥ 」═════╗
-You can choose an option bellow,
-by clicking 
-          a button ...
-Also you can ask anything  in 
-         support group
-               ❤️        
-╚═════「 ✥✥✥✥✥✥✥ 」═════╝              
+HELP_STRINGS = f"""╔═════「   ✥✥✥✥✥✥   」═════╗\n         ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ\n                         ʙᴇʟʟᴏᴡ\n                     ʙʏ ᴄʟɪᴄᴋɪɴɢ\n                       ᴀ ʙᴜᴛᴛᴏɴ\n     ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ  ɪɴ\n                 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ\n                              ❤️\n╚═════「   ✥✥✥✥✥✥   」═════╝\n  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬              
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -111,25 +93,25 @@ BUTTONS = (
     [
         [
             InlineKeyboardButton(
-                text="Help & commands 🛠 ", callback_data="help_back"
+                text="🛠 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🛠", callback_data="help_back"
             ),
             InlineKeyboardButton(
-                text="Repo 📦",
+                text="📦 ʀᴇᴘᴏ 📦",
                 url="https://github.com/youtubeslgeekshow/sz-rose-bot",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Info & about👨",
+                text="👨 ɪɴꜰᴏ & ᴀʙᴏᴜᴛ 👨",
                  callback_data="aboutmanu_howto",
             ),
             InlineKeyboardButton(
-                text="Collection😊", callback_data="aboutmanu_"
+                text="😊 ᴄᴏʟʟᴇᴄᴛɪᴏɴ 😊", callback_data="aboutmanu_"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group🎉",
+                text="🎉 ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ 🎉",
                 url=f"http://t.me/szrosebot?startgroup=true",
             )
         ],
@@ -137,34 +119,22 @@ BUTTONS = (
 )
 
 
-TEXT = """
- Hey there! 
-
-           My name is Rose bot ✨
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-A powerful group management bot which can help you 
-to manage your groups effectively as possible With   
-Advanced AI . 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-Click `Main menu` button for more information.
-
-Join my [Updates channel](https://t.me/szteambots) to get information on all the latest updates.  """
+TEXT = """╔═════「   ✥✥✥✥✥✥   」═════╗\n                       ʜᴇʏ ᴛʜᴇʀᴇ!\n             ᴍʏ ɴᴀᴍᴇ ɪꜱ ʀᴏꜱᴇ ʙᴏᴛ ✨\n    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n                      ᴀ ᴘᴏᴡᴇʀꜰᴜʟ\n           ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ\n               ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ\n           ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ\n      ᴇꜰꜰᴇᴄᴛɪᴠᴇʟʏ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ ᴡɪᴛʜ\n                       ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɪ .\n    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n                      🎉️ꜰᴇᴇʟ ꜰʀᴇᴇ\n         ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.\n    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n                            ᴄʟɪᴄᴋ\n                ᴍᴀɪɴ ᴍᴇɴᴜ ʙᴜᴛᴛᴏɴ\n            ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ..\n                          \nᴊᴏɪɴ ᴍʏ\n                [ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ](https://t.me/szteambots)\n            ᴛᴏ ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴏɴ\n          ᴀʟʟ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴜᴘᴅᴀᴛᴇꜱ...\n╚═════「   ✥✥✥✥✥✥   」═════╝\n  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
 
 MENU = (
     [
         [
             InlineKeyboardButton(
-                text=" Main menu ", callback_data="aboutmanu_back"
+                text="🔘 ᴍᴀɪɴ ᴍᴇɴᴜ 🔘", callback_data="aboutmanu_back"
             ),
             InlineKeyboardButton(
-                text="System Stats🖥",
+                text="🖥 ꜱʏꜱᴛᴇᴍ ꜱᴛᴀᴛꜱ 🖥",
                 callback_data="stats_callback",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group🎉",
+                text="🎉 ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ 🎉",
                 url="http://t.me/szrosebot?startgroup=true",
             )
         ],
