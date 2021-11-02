@@ -45,4 +45,4 @@ __help__ = """
 ** Cricket Info **
 ❍ /cs: Get latest cricket matches live scores from cricinfo.
 """
-__mod_name__ = "cricket "
+__mod_name__ = "ᴄʀɪᴄᴋᴇᴛ🏏"
