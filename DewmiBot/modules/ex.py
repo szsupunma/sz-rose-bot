@@ -5,4 +5,4 @@ __help__ =  """
   ❍ txt :Get Telegraph Link of Replied Text
  I can upload files to Telegraph
 """
-__mod_name__ = "Telegraph"       
+__mod_name__ = "ᴛᴇʟᴇɢʀᴀᴘʜ📊"       
