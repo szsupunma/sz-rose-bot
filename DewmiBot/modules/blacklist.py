@@ -449,7 +449,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "Blacklists"
+__mod_name__ = "ʙʟᴀᴄᴋʟɪꜱᴛꜱ⛔"
 
 __help__ = """
 @szrosebot🇱🇰
