@@ -308,7 +308,7 @@ dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 dispatcher.add_handler(WEEBIFY_HANDLER)
 
-__mod_name__ = "FUN"
+__mod_name__ = "ꜰᴜɴ🧩"
 __command_list__ = [
     "runs", "slap", "roll", "toss", "shrug", "bluetext", "rlg", "decide",
     "table", "pat", "sanitize", "weebify",
