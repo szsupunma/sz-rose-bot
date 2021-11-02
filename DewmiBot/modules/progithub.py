@@ -55,4 +55,4 @@ __help__ = """
 I will give information about github profile 
  ❍ /github <username>*:* Get information about a GitHub user.
 """
-__mod_name__ = "GITHUB"
+__mod_name__ = "ɢɪᴛʜᴜʙ🌀"
