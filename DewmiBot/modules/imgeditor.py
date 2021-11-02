@@ -462,4 +462,4 @@ Bright, Circle, RemBG, Blur, Border, Flip, Glitch, Sticker maker and more..
 
 ` Special credits to TroJanzHEX `
 """
-__mod_name__ = "Image Editor"
+__mod_name__ = "ɪ-ᴇᴅɪᴛᴏʀ🖼️"
