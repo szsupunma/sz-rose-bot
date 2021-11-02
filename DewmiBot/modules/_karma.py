@@ -139,5 +139,5 @@ __help__ = """
 ❍ /karma: Chek karma list of top 10 users
 
 """
-__mod_name__ = "Karma"            
+__mod_name__ = "ᴋᴀʀᴍᴀ🎪"            
 
