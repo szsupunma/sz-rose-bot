@@ -1,34 +1,37 @@
-<h1> A Powerful, Smart And Simple Group Manager szrose bot </h1>
+<h1> szrose is an all in one group management  bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️ </h1>
 
-
-
+# This repository not incuded latest version this is 2.5 verssion 
 
 ## Avaiilable a latest version as [@szrosebot](https://t.me/szrosebot) on Telegram
 
-<p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/9dd16a0599147d664f2a8.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/0984995a58e77e2051775.jpg" width="400"></a></p>
 <p align="center"></P>
 
 <p align="center"> <br>
-    <img src="https://img.shields.io/github/license/youtubeslgeekshow/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/youtubeslgeekshow/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/youtubeslgeekshow/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-    <img src="https://img.shields.io/github/issues/youtubeslgeekshow/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/youtubeslgeekshow/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/youtubeslgeekshow/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/issues/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Stars">
 </p>
 
 <a href="https://t.me/slbotzone"><img src="https://img.shields.io/badge/support%20group-blue.svg?style=for-the-badge&logo=Telegram">
-</a> <a href="https://t.me/SL_bot_zone"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</a> <a href="https://t.me/szteambots"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/szrosebot"><img src="https://img.shields.io/badge/Foundbot%20on-blue.svg?style=for-the-badge&logo=Telegram">
     
    
     
 ## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=youtubeslgeekshow&repo=sz-rose-bot&theme=dark)
-
-
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot)
   
+
+# Contributors
+    
+![GitHub Contributors Image](https://contrib.rocks/image?repo=szsupunma/sz-rose-bot)   
+      
 
 ## Read this carefully⚠️
 ``` 
@@ -52,30 +55,9 @@
 
 
 
-# Don't Deploy this 
 
- ## New Features Updated 😊
+ ## New Features Updated 😊[Here](https://telegra.ph/rose-updates-11-11-3)
     
-    
-    
-   - Url shortner
-   - Virus scan 
-   - Remove back ground 
-   - Image editor 
-   - System info 
-   - Book search 
-   - Covid info 
-   - github 
-   - Caption editor
-   - Night mode
-   - Cricket score
-   - Exam result ( Grade 5 , o/l , a/l)
-   - Games 
-   - Heroku ( restart / updates / logs /set var)
-   - Telegraph upload ( text / media)
-   - song search (With thubnail and more details)
-   - Group customize 
-   - [More info here](https://t.me/szroseupdates)
     
     
 [![Youtube](https://img.shields.io/badge/YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1)&nbsp; 
