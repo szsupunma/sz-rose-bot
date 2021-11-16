@@ -22,4 +22,4 @@ async def liri(client, message):
         result = f"{resp['data']}"
         await rep.edit(result)
     except Exception:
-        await rep.edit("**Lyrics not found.** please give a valid song name !")
+        await rep.edit("**Lyrics not found.** please give a valid song name !!!")
