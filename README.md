@@ -4,8 +4,7 @@
 
 ## Avaiilable a latest version as [@szrosebot](https://t.me/szrosebot) on Telegram
 
-<p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/0984995a58e77e2051775.jpg" width="400"></a></p>
-<p align="center"></P>
+<p align = "center"><a herf = "https://t.me/szrosebot" alt = "Mrjoker"><img src ="https://socialify.git.ci/kjeymax/szrosebot/image?description=1&font=Bitter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fte.legra.ph%2Ffile%2Fc263660e71bab023a4318.png&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark" alt="MR.Joker Bot" width="900"</a></p>
 
 <p align="center"> <br>
     <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
