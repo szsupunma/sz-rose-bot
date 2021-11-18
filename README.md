@@ -22,9 +22,7 @@
     <img src="https://img.shields.io/github/stars/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Stars">
 </p> 
     
-![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
-![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
-    
+
     
 ## Credits 🥰    
 - [hirunaofficial](https://github.com/hirunaofficial)
@@ -44,14 +42,22 @@
  
  ## Deplaoy Tutorial
  
+If you found a database error, follow the steps below
+💡 Warning: Use your bot for your personal use only   
+
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
+
+## 🐾Step 
+Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > Submit Order Form
+
+## Enjoy Your own Bot!
+
+## 🌟 Don't forget to star this repo if you liked it.
+
+
+ 
+ ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
+![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
     
-    
- 
- 
- 
- 
- 
- 
  
     
