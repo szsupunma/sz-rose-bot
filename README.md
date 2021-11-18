@@ -1,26 +1,18 @@
-<h1> szrose is an all in one group management  bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️ </h1>
+<h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭  𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 2.5 verssion ❞ </h1>
 
-# This repository not incuded latest version this is 2.5 verssion 
-
-## Avaiilable a latest version as [@szrosebot](https://t.me/szrosebot) on Telegram
-
-
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot)
 
 <p align="center"> <br>
-    <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Repository Size"> 
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-    <img src="https://img.shields.io/github/issues/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/szsupunma/sz-rose-bot?style=for-the-badge&logo=appveyor" alt="Stars">
-</p>
-
-<a href="https://t.me/slbotzone"><img src="https://img.shields.io/badge/support%20group-blue.svg?style=for-the-badge&logo=Telegram">
-</a> <a href="https://t.me/szteambots"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/szrosebot"><img src="https://img.shields.io/badge/Foundbot%20on-blue.svg?style=for-the-badge&logo=Telegram">
-    
-   
+ <br>   
+    <img src="https://img.shields.io/github/issues/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Issues">
+    <img src="https://img.shields.io/github/forks/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Forks">
+    <img src="https://img.shields.io/github/stars/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Stars">
+</p> 
     
 ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
 ![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
@@ -31,9 +23,7 @@
     
     
     
-## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot)
+
   
 
 # Contributors
