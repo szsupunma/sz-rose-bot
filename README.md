@@ -1,7 +1,7 @@
 <h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭  𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 2.5 verssion ❞ </h1>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot)
+
 
 <p align="center"> <br>
     <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="LICENSE">
@@ -17,7 +17,7 @@
 ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
 ![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
     
-    
+<h1 align = "center"> [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot) </h1>
     
     
     
