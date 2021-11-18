@@ -2,6 +2,14 @@
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
 
+# ❓This is an old repository and is not up to date.
+# Contact me if you want to create your own bot from the updated repository but it is always done for a fee💰.
+
+# 💵 Payment Method
+💎Ltc coin ``` LhCj3H8abLuSb81B9ojJYpHPkLz6xCYayn```
+💎Bit Coin ``` 17fdwXfHcj3Yeu7LrswnQRX15RzSK5bXER ```
+
+## ⚙️ Bot hoster [Sadew Rukshan [ᴄɢꜱ™]](https://t.me/CGSUpdates)
 
 <p align="center"> <br>
     <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="LICENSE">
@@ -20,9 +28,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
     
     
-## Credits 🥰 
-
-    
+## Credits 🥰    
 - [hirunaofficial](https://github.com/hirunaofficial)
 - [Damantha126](https://github.com/Damantha126)
 - [Sadew451](https://github.com/Sadew451) 
@@ -33,12 +39,10 @@
 - [Group Menter](https://github.com/TeamGroupMenter/GroupMenter)
 
 
-
  ## New Features Updated 😊[Here](https://telegra.ph/rose-updates-11-11-3)
  
  
  # Contributors
-    
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=szsupunma/sz-rose-bot)   
  
  
