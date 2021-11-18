@@ -17,35 +17,16 @@
 ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
 ![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
     
-<h1 align = "center"> [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot) </h1>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
     
     
-    
-    
-    
-
-  
-
-# Contributors
-    
-![GitHub Contributors Image](https://contrib.rocks/image?repo=szsupunma/sz-rose-bot)   
-      
-
-## Read this carefully⚠️
-``` 
- - This is not entirely edited by me and I only modified the original repo.
- - The real owner here is hirunaofficial and I offer him my special thanks.
- - You can use his repo below at any time if you want.
- - It is forbidden to clone this without my permission and fork is allowed.
- - This is the clone of DewmiBot it is a  Powerful, Smart And Simple Group Manager bot made by hirunaofficial.
-```
 ## Credits 🥰 
 
     
-- [hirunaofficial](https://github.com/hirunaofficial)~ (DEV)
-- [Damantha126](https://github.com/Damantha126)~ (DEV)
-- [Sadew451](https://github.com/Sadew451) ~ (DEV)
-- [Uvindu-bro](https://github.com/UvinduBro) ~ (DEV)
+- [hirunaofficial](https://github.com/hirunaofficial)
+- [Damantha126](https://github.com/Damantha126)
+- [Sadew451](https://github.com/Sadew451) 
+- [Uvindu-bro](https://github.com/UvinduBro) 
 - [daisyx-old](https://github.com/TeamDaisyX/Daisy-OLD)
 - [innexia](https://github.com/DarkCybers/innexia/tree/Sammy/innexiaBot)
 - [Daisyx](https://github.com/TeamDaisyX/DaisyX)
@@ -53,17 +34,19 @@
 
 
 
-
  ## New Features Updated 😊[Here](https://telegra.ph/rose-updates-11-11-3)
+ 
+ 
+ # Contributors
     
+![GitHub Contributors Image](https://contrib.rocks/image?repo=szsupunma/sz-rose-bot)   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     
-    
-[![Youtube](https://img.shields.io/badge/YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1)&nbsp; 
-    
-[![Telegram](https://img.shields.io/badge/slbotzone%20Team-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/supunmabot)&nbsp;
-    
-[![Facebook](https://img.shields.io/badge/Follow%20me%20on%20Facebook-2533cf?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=facebook)](https://www.facebook.com/SL-Geek-Show-yt-103654258471929/)&nbsp;
-    
-[![Intagram](https://img.shields.io/badge/Follow%20me%20on%20Instagram-4d267a?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=instagram)](https://www.instagram.com/sl_geek_show/)&nbsp;
-    
-[![Github](https://img.shields.io/badge/Github-000000?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/youtubeslgeekshow) 
