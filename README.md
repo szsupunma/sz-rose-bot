@@ -23,6 +23,15 @@
     
    
     
+![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
+![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=online&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
+    
+    
+    
+    
+    
+    
+    
 ## Repo Stats
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/sz-rose-bot)
