@@ -63,34 +63,35 @@ from DewmiBot.modules.helper_funcs.chat_status import is_user_admin
 from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 from DewmiBot.modules.system_stats import bot_sys_stats
+import DewmiBot.modules.sql.users_sql as sql
 
-
-PM_START_TEXT = """
-✨ ʜᴇʟʟᴏ ᴛʜᴇʀᴇ, ɪ'ᴍ szrosebot 
-
-ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ғᴏʀ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ & ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-
-❤ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ supunma <sz/>
+PM_START_TEXT = f"""
+✨Hello There , I'm szrosebot
+An anime - Themed advanced telegram Group management 
+Bot For help You Manage & Protect Your Groups.
+➼ `{sql.num_users()}` *Users*
+➼ `{sql.num_chats()}`  *Chats*
+♻️Maintained by [supunma <sz/>](https://t.me/szteambots)
 """
 
-HELP_STRINGS = f"""╔═════「   ✥✥✥✥✥✥   」═════╗\n         ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ\n                         ʙᴇʟʟᴏᴡ\n                     ʙʏ ᴄʟɪᴄᴋɪɴɢ\n                       ᴀ ʙᴜᴛᴛᴏɴ\n     ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ  ɪɴ\n                 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ\n                              ❤️\n╚═════「   ✥✥✥✥✥✥   」═════╝\n  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬              
-""".format(
+HELP_STRINGS = f"""
+✨Hello There , I'm szrosebot
+An anime - Themed advanced telegram Group management
+Bot For help You Manage & Protect Your Groups.
+**General commands**:
+ ➼ /start: Starts me! You've probably already used this.
+ ➼ /help: Sends this message; I'll tell you more about myself!
+ """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
 
 DONATE_STRING = """
-➢Heya,glad to hear you want to donate !
-
+➢ Heya,glad to hear you want to donate !
 ➢ You can support the project @supunmabot
-
-
 ➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
-
-
-➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots..
-
+➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
@@ -98,58 +99,33 @@ BUTTONS = (
     [
         [
             InlineKeyboardButton(
-                text="🛠 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🛠", callback_data="help_back"
+                text="🆘 Help 🆘", callback_data = "helpmenu_"
             ),
             InlineKeyboardButton(
-                text="📦 ʀᴇᴘᴏ 📦",
-                url="https://github.com/youtubeslgeekshow/sz-rose-bot",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="👨 ɪɴꜰᴏ & ᴀʙᴏᴜᴛ 👨",
-                 callback_data="aboutmanu_howto",
-            ),
-            InlineKeyboardButton(
-                text="😊 ᴄᴏʟʟᴇᴄᴛɪᴏɴ 😊", callback_data="aboutmanu_"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🎉 ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ 🎉",
-                url=f"http://t.me/szrosebot?startgroup=true",
-            )
-        ],
-    ]
-)
-
-
-TEXT = """
-✨ ʜᴇʟʟᴏ ᴛʜᴇʀᴇ, ɪ'ᴍ szrosebot 
-
-ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ғᴏʀ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ & ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-
-❤ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ supunma <sz/>
-"""
-MENU = (
-    [
-        [
-            InlineKeyboardButton(
-                text="🔘 ᴍᴀɪɴ ᴍᴇɴᴜ 🔘", callback_data="aboutmanu_back"
-            ),
-            InlineKeyboardButton(
-                text="🖥 ꜱʏꜱᴛᴇᴍ ꜱᴛᴀᴛꜱ 🖥",
+                text="📊 Stats 📊",
                 callback_data="stats_callback",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🎉 ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ 🎉",
-                url="http://t.me/szrosebot?startgroup=true",
+                text="🗣 Updates", url="https://t.me/szteambots"
+            ),
+            InlineKeyboardButton(
+                text="👥 Support",
+                url="https://t.me/slbotzone",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="➕ Add Me To Your Group ➕",
+                url=f"t.me/szrosebot?startgroup=true",
             )
         ],
     ]
 )
+
+
+
    
 IMPORTED = {}
 MIGRATEABLE = []
@@ -262,19 +238,19 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
-                TEXT,
-                reply_markup=InlineKeyboardMarkup(MENU),
+                PM_START_TEXT,
+                reply_markup=InlineKeyboardMarkup(BUTTONS),
                 parse_mode=ParseMode.MARKDOWN,
                disable_web_page_preview=True,
             )
     else:
         update.effective_message.reply_text(
-            "╔════「   ✥✥✥✥✥✥✥   」════╗\n                         Hᴇʟʟᴏ,\n                 ɪ ᴀᴍ ʀᴏꜱᴇ ʙᴏᴛ❤\n       Pᴏᴡᴇʀᴇᴅ Bʏ @szteambots\n                  ɪ ᴀᴍ ᴏɴʟɪɴᴇ!!😊\n                  ꜱɪɴᴄᴇ:  <code>{}</code>😝\n╚════「   ✥✥✥✥✥✥✥   」════╝\n  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬".format(
+            "*Promote me as administrator of the group, otherwise I will not be able to work properly*\n Don't forget follow my news channel @szroseupdates.\n\n*New to szrosebot, Touch the below button to for quick setup guide*".format(
                 uptime
             ),
-            parse_mode=ParseMode.HTML,
+            parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url ="https://t.me/szroseupdates")]],
+                [[InlineKeyboardButton(text="Quick Setup Guide", callback_data = "helpmenu_")]],
             ),
         )
     
