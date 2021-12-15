@@ -47,7 +47,7 @@
          "required": true,
          "value": ""
       },    
-      "DB_URI"": {
+      "DB_URI": {
          "description": "Your postgres sql db, get it form https://www.elephantsql.com/",
          "required": false,
          "value": "postgres://vcevfyuu:X5NuCvDcreJo5ShCkbHvRSU2PHBOfb-b@burnt-pisang-mas.db.elephantsql.com/vcevfyuu"
