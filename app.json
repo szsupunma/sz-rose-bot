@@ -47,10 +47,10 @@
          "required": true,
          "value": ""
       },    
-      "SQLALCHEMY_DATABASE_URI": {
-         "description": "Your postgres sql db, empty this field if you dont have one.",
+      "DB_URI"": {
+         "description": "Your postgres sql db, get it form https://www.elephantsql.com/",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "postgres://vcevfyuu:X5NuCvDcreJo5ShCkbHvRSU2PHBOfb-b@burnt-pisang-mas.db.elephantsql.com/vcevfyuu"
        },
     "REM_BG_API_KEY": {
       "description": "remove.bg api (no need)",
