@@ -8,6 +8,14 @@
          "sz-rose-bot"
       ],   
    "repository": "https://github.com/szsupunma/sz-rose-bot",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
    "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -47,10 +55,10 @@
          "required": true,
          "value": ""
       },    
-      "DB_URI": {
+      "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, get it form https://www.elephantsql.com/",
          "required": false,
-         "value": "postgres://vcevfyuu:X5NuCvDcreJo5ShCkbHvRSU2PHBOfb-b@burnt-pisang-mas.db.elephantsql.com/vcevfyuu"
+         "value": "Fill this"
        },
     "REM_BG_API_KEY": {
       "description": "remove.bg api (no need)",
