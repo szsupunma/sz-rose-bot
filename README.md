@@ -14,13 +14,13 @@
 <p align="center"> <br>
     <img src="https://img.shields.io/badge/TG%20SPEEDER-Fastest%20tg%20music%20bot-blueviolet"
 alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/wamd13/TG-SPEEDER-bot?style=for-the-badge&logo=telegram" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/wamd13/TG-SPEEDER-bot?style=for-the-badge&logo=telegram" alt="Repository Size"> 
+    <img src="https://img.shields.io/github/contributors/Lohirubot/sz-rose-bot/tree/patch-1?style=for-the-badge&logo=telegram" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/Lohirubot/sz-rose-bot/tree/patch-1?style=for-the-badge&logo=telegram" alt="Repository Size"> 
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
  <br>   
-    <img src="https://img.shields.io/github/issues/wamd13/TG-SPEEDER-bot?style=for-the-badge&logo=telegram" alt="Issues">
-    <img src="https://img.shields.io/github/forks/wamd13/TG-SPEEDER-bot?style=for-the-badge&logo=telegram" alt="Forks">
-    <img src="https://img.shields.io/github/stars/wamd13/TG-SPEEDER-bot?style=for-the-badge&logo=telegram" alt="Stars">
+    <img src="https://img.shields.io/github/issues/Lohirubot/sz-rose-bot/tree/patch-1?style=for-the-badge&logo=telegram" alt="Issues">
+    <img src="https://img.shields.io/github/forks/Lohirubot/sz-rose-bot/tree/patch-1?style=for-the-badge&logo=telegram" alt="Forks">
+    <img src="https://img.shields.io/github/stars/Lohirubot/sz-rose-bot/tree/patch-1?style=for-the-badge&logo=telegram" alt="Stars">
 </p> 
     
 
@@ -46,7 +46,7 @@ alt="LICENSE">
 If you found a database error, follow the steps below
 💡 Warning: Use your bot for your personal use only   
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=) 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lohirubot/sz-rose-bot/tree/patch-1) 
 
 ## 🐾Step 
 Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > Submit Order Form
@@ -57,8 +57,8 @@ Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > S
 
 
  
- ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=lhrupdates%20@lhrupdates&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
-![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@llhrbotsupport &query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
+ ![TG Channel](@lhrbotsupport) 
+![TG Chat](@Lhrupdates)
     
  
     
