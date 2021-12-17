@@ -26,7 +26,7 @@ alt="LICENSE">
 
     
 ## Credits 🥰    
-- [wamd13][https://github.com/Lohirubot]
+- [@wamd13][https://github.com/Lohirubot]
 
 
 
@@ -36,24 +36,24 @@ alt="LICENSE">
 
 
 
- ## New Features Updated 😊[Here](https://telegra.ph/rose-updates-11-11-3)
+ ## New Features Updated 😊[Here](https://github.com/Lohirubot)
  
  # Contributors
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=wamd13/TG-SPEEDER-bot)   
  
- ## Deplaoy Tutorial
+ ## Deploy Tutorial [HERE](https://youtu.be/HdaDI0sdFsA)[DONT FORGET TO SUBSCRIBE🤓](https://youtube.com/channel/UCOgr0s7PUYwwMpAHGyI0CxQ)
  
 If you found a database error, follow the steps below
 💡 Warning: Use your bot for your personal use only   
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=) 
 
 ## 🐾Step 
 Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > Submit Order Form
 
 ## Enjoy Your own Bot!
 
-## 🌟 Don't forget to star this repo if you liked it.
+[## 🌟 Don't forget to star this repo if you liked it](https://github.com/Lohirubot
 
 
  
