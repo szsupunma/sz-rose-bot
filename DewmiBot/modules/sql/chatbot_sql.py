@@ -1,74 +1,42 @@
 import threading
 
 from sqlalchemy import Column, String
-
 from DewmiBot.modules.sql import BASE, SESSION
 
-
-class ChatbotChats(BASE):
-    __tablename__ = "chatbot_chats"
+class Chatbot(BASE):
+    __tablename__ = "chatbot"
     chat_id = Column(String(14), primary_key=True)
-    ses_id = Column(String(70))
-    expires = Column(String(15))
 
-    def __init__(self, chat_id, ses_id, expires):
+    def __init__(self, chat_id):
         self.chat_id = chat_id
-        self.ses_id = ses_id
-        self.expires = expires
 
 
-ChatbotChats.__table__.create(checkfirst=True)
-
-INSERTION_LOCK = threading.RLock()
+Chatbot.__table__.create(checkfirst=True)
 
 
-def is_chat(chat_id):
-    try:
-        chat = SESSION.query(ChatbotChats).get(str(chat_id))
-        if chat:
-            return True
-        else:
-            return False
-    finally:
-        SESSION.close()
+def addchatbot(chat_id: str):
+    chatbotty = Chatbot(str(chat_id))
+    SESSION.add(chatbotty)
+    SESSION.commit()
 
 
-def set_ses(chat_id, ses_id, expires):
-    with INSERTION_LOCK:
-        autochat = SESSION.query(ChatbotChats).get(str(chat_id))
-        if not autochat:
-            autochat = ChatbotChats(str(chat_id), str(ses_id), str(expires))
-        else:
-            autochat.ses_id = str(ses_id)
-            autochat.expires = str(expires)
-
-        SESSION.add(autochat)
+def rmchatbot(chat_id: str):
+    rmchatbotty = SESSION.query(Chatbot).get(str(chat_id))
+    if rmchatbotty:
+        SESSION.delete(rmchatbotty)
         SESSION.commit()
 
 
-def get_ses(chat_id):
-    autochat = SESSION.query(ChatbotChats).get(str(chat_id))
-    sesh = ""
-    exp = ""
-    if autochat:
-        sesh = str(autochat.ses_id)
-        exp = str(autochat.expires)
-
+def get_all_chat_id():
+    stark = SESSION.query(Chatbot).all()
     SESSION.close()
-    return sesh, exp
+    return stark
 
 
-def rem_chat(chat_id):
-    with INSERTION_LOCK:
-        autochat = SESSION.query(ChatbotChats).get(str(chat_id))
-        if autochat:
-            SESSION.delete(autochat)
-
-        SESSION.commit()
-
-
-def get_all_chats():
+def is_chatbot_indb(chat_id: str):
     try:
-        return SESSION.query(ChatbotChats.chat_id).all()
+        s__ = SESSION.query(Chatbot).get(str(chat_id))
+        if s__:
+            return str(s__.chat_id)
     finally:
         SESSION.close()
