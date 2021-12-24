@@ -613,7 +613,7 @@ def stats(update, context):
 
 # /ip is for private use
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /gdpr: Deletes your information from the bot's database. Private chats only.
  ❍ /markdownhelp: Quick summary of how markdown works in telegram - can only be called in private chats.
  ❍ /removebotkeyboard: Got a nasty bot keyboard stuck in your group?

@@ -66,16 +66,16 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 import DewmiBot.modules.sql.users_sql as sql
 
 PM_START_TEXT = f"""
-✨Hello There , I'm szrosebot
+✨Hello There , I'm anonymous rose bot
 An anime - Themed advanced telegram Group management 
 Bot For help You Manage & Protect Your Groups.
 ➼ `{sql.num_users()}` *Users*
 ➼ `{sql.num_chats()}`  *Chats*
-♻️Maintained by [supunma <sz/>](https://t.me/szteambots)
+♻️Maintained by [networkchukka](https://t.me/networkchukka)
 """
 
 HELP_STRINGS = f"""
-✨Hello There , I'm szrosebot
+✨Hello There , I'm anonymous rose bot
 An anime - Themed advanced telegram Group management
 Bot For help You Manage & Protect Your Groups.
 **General commands**:
@@ -89,7 +89,7 @@ Bot For help You Manage & Protect Your Groups.
 
 DONATE_STRING = """
 ➢ Heya,glad to hear you want to donate !
-➢ You can support the project @supunmabot
+➢ You can support the project @ehivpnssh
 ➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
 ➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
 """
@@ -108,17 +108,17 @@ BUTTONS = (
         ],
         [
             InlineKeyboardButton(
-                text="🗣 Updates", url="https://t.me/szteambots"
+                text="🗣 Updates", url="https://t.me/ehivpnssh"
             ),
             InlineKeyboardButton(
                 text="👥 Support",
-                url="https://t.me/slbotzone",
+                url="https://t.me/ehivpnssh",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="➕ Add Me To Your Group ➕",
-                url=f"t.me/szrosebot?startgroup=true",
+                url=f"t.me/anonyrose_bot?startgroup=true",
             )
         ],
     ]
@@ -383,15 +383,15 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ🐞", url="t.me/slbotzone"
+                            text="Bᴜɢ'ꜱ🐞", url="t.me/ehivpnssh"
                         ),
                         InlineKeyboardButton(
-                            text="updates💁‍♀️", url="t.me/szteambots"
+                            text="updates💁‍♀️", url="t.me/ehivpsssh"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Donate 🤕", url="http://t.me/szrosebot?start=donate"
+                            text="Donate 🤕", url="http://t.me/anonyrose_bot?start=donate"
                         ),
                         InlineKeyboardButton(
                             text="Inline search 🔎", switch_inline_query_current_chat=""
@@ -466,14 +466,14 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_spamprot":
         query.message.edit_text(
-            text="* @szrosebot🇱🇰 support chats*"
+            text="* @ehivpnssh support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/slbotzone"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/szteambots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ehivpnssh"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/ehivpsssh"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
@@ -549,7 +549,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Click me for help!",
-                            url="https://t.me/szrosebot",
+                            url="https://t.me/anonyrose_bot",
                         )
                     ],
                 ]

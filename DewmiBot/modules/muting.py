@@ -367,7 +367,7 @@ def stemp_mute(update: Update, context: CallbackContext) -> str:
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 *Admins only:*
  ❍ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
  ❍ /smute <userhandle>*:* silences a user without notifying. Can also be used as a reply, muting the replied to user.

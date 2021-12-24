@@ -119,7 +119,7 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /rules*:* get the rules for this chat.
 
 *Admins only:*

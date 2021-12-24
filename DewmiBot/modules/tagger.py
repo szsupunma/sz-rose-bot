@@ -259,7 +259,7 @@ def untagall(update, context):
 __mod_name__ = "ᴛᴀɢɢᴇʀ🔖"
 
 __help__ = """ 
-@szrosebot🇱🇰
+@ehivpnssh
 Tagger is an essential feature to mention all subscribed members in the group. Any chat members can subscribe to tagger.
 
 ❍ /tagme: registers to the chat tag list.

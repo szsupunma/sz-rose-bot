@@ -516,7 +516,7 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /get <notename>*:* get the note with this notename
  ❍ #<notename>*:* same as /get
  ❍ /notes or /saved*:* list all saved notes in this chat

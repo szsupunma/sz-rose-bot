@@ -21,7 +21,7 @@ async def covid(_, message):
         return
     
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /covid - To Get Global Stats of Covid.
  ❍ /covid <country> - To Get Stats of A Single Country.
 """

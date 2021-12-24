@@ -198,7 +198,7 @@ def unapproveall_btn(update: Update, context: CallbackContext):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 Sometimes, you might trust a user not to send unwanted content.
 Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
 

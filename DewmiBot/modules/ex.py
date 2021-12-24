@@ -1,5 +1,5 @@
 __help__ =  """
-@szrosebot🇱🇰
+@ehivpnssh
 ** Telegraph ** 
   ❍ tm :Get Telegraph Link Of Replied Media
   ❍ txt :Get Telegraph Link of Replied Text

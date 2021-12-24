@@ -41,7 +41,7 @@ async def _(event):
     )
     
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 ** Cricket Info **
 ❍ /cs: Get latest cricket matches live scores from cricinfo.
 """

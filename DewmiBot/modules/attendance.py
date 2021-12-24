@@ -124,7 +124,7 @@ def end_attendance_cmd(update, context):
         context.chat_data['attendees'].clear()
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍  /attendance :Start the attendance
  ❍  /end_attendance : End the attendance
 """
