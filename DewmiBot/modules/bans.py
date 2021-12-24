@@ -594,7 +594,7 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 *Kicks:*
  ❍ /kick <userhandle>*:* Kicks a user out of the group, (via handle, or reply)
  ❍ /skick <userhandle>*:* Silently kicks a user out of the group, (via handle, or reply)

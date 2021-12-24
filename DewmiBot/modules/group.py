@@ -120,7 +120,7 @@ async def set_chat_description(_, message):
         await message.reply_text(e)
         
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /setgtitle <newtitle>*:* Sets new chat title in your group.
  ❍ /setgpic*:* As a reply to file or photo to set group profile pic!
  ❍ /delgpic*:* Same as above but to remove group profile pic.

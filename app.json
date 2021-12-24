@@ -5,9 +5,9 @@
       "keywords": [
          "Telegram",
          "Groupmanager",
-         "sz-rose-bot"
+         "anonymous-rose-bot"
       ],   
-   "repository": "https://github.com/szsupunma/sz-rose-bot",
+   "repository": "https://github.com/NetworkChukka/Anonymous-rose-bot",
    "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"

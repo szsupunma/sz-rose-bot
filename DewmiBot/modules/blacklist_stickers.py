@@ -502,7 +502,7 @@ def __stats__():
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, the message will be deleted immediately.
 *NOTE:* Blacklist stickers do not affect the group admin
  ❍ `/blsticker`*:* See current blacklisted sticker

@@ -94,7 +94,7 @@ async def stop_timer(Client, message):
         await asyncio.sleep(e.x)
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 ❍ /settime [time in seconds] "Title": To use Count Down Timer
 ❍ /stopc : To stop all countdown timers
 """

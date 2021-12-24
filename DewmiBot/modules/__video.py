@@ -55,7 +55,7 @@ async def vsong(pbot, message):
             ytdl_data = ytdl.extract_info(link, download=True)
             file_name = ytdl.prepare_filename(ytdl_data)
     except Exception as e:
-        return await msg.edit(f"❌**YouTube Download Error !*** {str(e)}\n\n Go support chat👉 @slbotzone")
+        return await msg.edit(f"❌**YouTube Download Error !*** {str(e)}\n\n Go support chat👉 @ehivpnssh")
     preview = wget.download(thumbnail)
     await msg.edit("📤 **uploading video...**")
     await message.reply_video(
@@ -63,7 +63,7 @@ async def vsong(pbot, message):
         duration=int(ytdl_data["duration"]),
         thumb=preview,
         caption=ytdl_data['title'],
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join updates", url=f"https://t.me/szroseupdates")]]))
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join updates", url=f"https://t.me/ehivpsssh")]]))
     try:
         os.remove(file_name)
         await msg.delete()

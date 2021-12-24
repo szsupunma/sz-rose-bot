@@ -10,7 +10,7 @@ async def give_cobtribs(c, m):
     g = github.Github()
     co = ""
     n = 0
-    repo = g.get_repo("youtubeslgeekshow/sz-rose-bot")
+    repo = g.get_repo("NetworkChukka/Anonymous-rose-bot")
     for i in repo.get_contributors():
         n += 1
         co += f"{n}. [{i.login}](https://github.com/{i.login})\n"
@@ -18,7 +18,7 @@ async def give_cobtribs(c, m):
     await m.reply(t, disable_web_page_preview=True)
     
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 Contributor
  ❍ /contributors : contributors using this bot  
 """

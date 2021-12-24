@@ -98,7 +98,7 @@ def ReTrieveFile(input_file_name):
     return r
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /rmbg: Type in reply to a media to remove it's background
 """
 __mod_name__ = "ʀᴍʙɢ💹"

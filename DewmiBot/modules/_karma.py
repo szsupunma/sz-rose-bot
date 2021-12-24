@@ -130,7 +130,7 @@ async def command_karma(_, message):
       
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 [UPVOTE] - Use upvote keywords like "+", "+1", "thanks" etc to upvote a cb.message.
 [DOWNVOTE] - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
 

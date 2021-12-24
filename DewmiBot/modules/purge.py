@@ -96,7 +96,7 @@ async def delete_messages(event):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 *Admin only:*
  ❍ /del*:* deletes the message you replied to.
  ❍ /purge*:* deletes all messages between this and the replied to message.

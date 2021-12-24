@@ -491,7 +491,7 @@ def goodmorning(update, context):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 *Some dank memes for fun or whatever!*
  ❍ /sanitize*:* Sanitize Your Self
  ❍ /shrug or /cri*:* Get shrug or ToT.

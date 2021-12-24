@@ -265,7 +265,7 @@ async def download_video(v_url):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /music <songname artist(optional)>: uploads the song in it's best quality available
 
  ❍ /vsong <songname artist(optional)>: uploads the video song in it's best quality available

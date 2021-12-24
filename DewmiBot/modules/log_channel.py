@@ -193,7 +193,7 @@ if is_module_loaded(FILENAME):
         return "No log channel is set for this group!"
 
     __help__ = """
-    @szrosebot🇱🇰
+    @ehivpnssh
 *Admins only:*
 ❍ /logchannel*:* get log channel info
 ❍ /setlog*:* set the log channel.

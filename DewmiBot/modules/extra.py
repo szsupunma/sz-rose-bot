@@ -1,5 +1,5 @@
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
 
 📝CAPTION EDITOR 
 now you can edit any file caption useing szrosebot .

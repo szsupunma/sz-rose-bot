@@ -69,19 +69,19 @@ async def virusscan(event):
     try:
         c.media.document
     except Exception:
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @ehivpnssh")
         return
     h = c.media
     try:
         k = h.document.attributes
     except Exception:
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @ehivpnssh")
         return
     if not isinstance(h, MessageMediaDocument):
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @ehivpnssh")
         return
     if not isinstance(k[0], DocumentAttributeFilename):
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @ehivpnssh")
         return
     try:
         virus = c.file.name
@@ -99,9 +99,9 @@ async def virusscan(event):
             allow_password_protected_files=allow_password_protected_files,
         )
         if api_response.clean_result is True:
-            await gg.edit("This file is safe ✅\n🧬 `Detections: 0 / 57`\n[⚜️ Link to VirusTotal ](https://www.virustotal.com)\n💬support chat👉 @slbotzone")
+            await gg.edit("This file is safe ✅\n🧬 `Detections: 0 / 57`\n[⚜️ Link to VirusTotal ](https://www.virustotal.com)\n💬support chat👉 @ehivpnssh")
         else:
-            await gg.edit("This file is Dangerous ☠️️\nVirus detected ❌\n[⚜️ Link to VirusTotal ](https://www.virustotal.com)\n💬support chat👉 @slbotzone")
+            await gg.edit("This file is Dangerous ☠️️\nVirus detected ❌\n[⚜️ Link to VirusTotal ](https://www.virustotal.com)\n💬support chat👉 @ehivpnssh")
         os.remove(virus)
     except Exception as e:
         print(e)
@@ -110,7 +110,7 @@ async def virusscan(event):
         return
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /scanit: Scan a file for virus (MAX SIZE = 3MB)
 """
 __mod_name__ = "ᴠɪʀᴜꜱ🦠"

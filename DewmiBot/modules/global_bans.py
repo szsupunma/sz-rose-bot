@@ -494,7 +494,7 @@ def gbanstat(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Updates", url ="https://t.me/szroseupdates")]],
+                [[InlineKeyboardButton(text="Updates", url ="https://t.me/ehivpnssh")]],
             ),
         elif args[0].lower() in ["off", "no"]:
             sql.disable_gbans(update.effective_chat.id)
@@ -503,7 +503,7 @@ def gbanstat(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Updates", url ="https://t.me/szroseupdates")]],
+                [[InlineKeyboardButton(text="Updates", url ="https://t.me/ehivpnssh")]],
             ),
     else:
         update.effective_message.reply_text(
