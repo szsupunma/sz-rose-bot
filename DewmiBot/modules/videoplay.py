@@ -1,5 +1,5 @@
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ⚊❮❮❮❮  All Command List ❯❯❯❯⚊
         
 ✮ /vplay (reply to video or yt/live url) - to stream video

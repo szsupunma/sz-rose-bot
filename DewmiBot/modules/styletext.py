@@ -484,7 +484,7 @@ def lined(update, context):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@ehivpnssh
  ❍ /weebify
  ❍ /bubble
  ❍ /fbubble
