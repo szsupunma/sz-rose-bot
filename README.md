@@ -19,7 +19,7 @@
 </p> 
     
     
-##Special Credits 🥰    
+## Special Credits 🥰    
 - [hirunaofficial](https://github.com/hirunaofficial)~first code
 - [Damantha126](https://github.com/Damantha126)
 - [Sadew451](https://github.com/Sadew451) 
@@ -31,7 +31,7 @@
 - [boltbackerbot](https://t.me/boltbacker)
 - [Single Developers </>](https://t.me/SingleDevelopers)
 
-##👨‍💻 Self-hosting (For Devs)
+## 👨‍💻 Self-hosting (For Devs)
 ```
 # Install Git First (apt-instll git)
 $ git clone https://github.com/szsupunma/sz-rose-bot
